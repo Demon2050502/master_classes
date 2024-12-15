@@ -45,18 +45,26 @@ dots.forEach((dot, index) => {
 });
 
 // Обработчик отправки формы
-document.getElementById('signupForm').addEventListener('submit', function(event) {
+document.querySelector('.signupForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Останавливаем стандартное поведение формы
 
-    // Показываем сообщение об успешной регистрации
-    const successMessage = document.getElementById('successMessage');
-    successMessage.style.display = 'block';
+    // Показываем модальное окно
+    const modal = document.getElementById('modal');
+    modal.style.display = 'flex';
 
     // Очищаем форму после отправки
     this.reset();
 
-    // Убираем сообщение через 5 секунд (опционально)
-    setTimeout(() => {
-        successMessage.style.display = 'none';
-    }, 5000);
+    // Закрытие модального окна по клику вне его содержимого
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Отменяем стандартное поведение формы
+    alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
 });
