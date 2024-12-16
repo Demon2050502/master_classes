@@ -66,5 +66,9 @@ document.querySelector('.signupForm').addEventListener('submit', function(event)
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault(); // Отменяем стандартное поведение формы
+
+    // Очищаем форму после отправки
+    this.reset();
+
     alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
 });

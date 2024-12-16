@@ -13,14 +13,15 @@ body {
 }
 
 header {
-    display: flex; /* Используем Flexbox для расположения логотипа и меню */
-    align-items: center; /* Центрируем элементы по горизонтали */
+    display: flex;
+    /* Используем Flexbox для расположения логотипа и меню */
+    align-items: center;
+    /* Центрируем элементы по горизонтали */
     margin: 10px;
     /*background-color: #546a47;*/
     color: black;
     padding: 10px 0;
 }
-
 
 nav {
     display: flex;
@@ -41,21 +42,14 @@ nav a:hover {
     color: rgb(180, 199, 169)
 }
 
-
 .menu-logo {
-    height: 70px; /* Высота логотипа (можно настроить) */
-    width: auto; /* Автоматическая ширина для сохранения пропорций */
-    margin-right: 20px; /* Отступ между логотипом и меню */
+    height: 70px;
+    /* Высота логотипа (можно настроить) */
+    width: auto;
+    /* Автоматическая ширина для сохранения пропорций */
+    margin-right: 20px;
+    /* Отступ между логотипом и меню */
 }
-
-/*.horizontal-menu {
-    flex-grow: 1; /* Позволяет меню занимать
-     оставшееся пространство 
-}*/
-
-/*.slider {
-    margin: 20px auto;
-}*/
 
 .slider-container {
     position: relative;
@@ -77,11 +71,13 @@ nav a:hover {
 .slide {
     position: relative;
     min-width: 100%;
-    background-size: cover; /* Изображение будет покрывать весь слайд */
-    background-position: center; /* Центрируем изображение */
-    position: relative; /* Для позиционирования дочерних элементов */
+    background-size: cover;
+    /* Изображение будет покрывать весь слайд */
+    background-position: center;
+    /* Центрируем изображение */
+    position: relative;
+    /* Для позиционирования дочерних элементов */
 }
-
 
 .discount-banner {
     display: flex;
@@ -92,7 +88,8 @@ nav a:hover {
     height: 300px;
     color: white;
     /*opacity: 0.8;*/
-    background-color: rgba(0, 0, 0, 0.2); /* Полупрозрачный черный цвет (30% непрозрачности) */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Полупрозрачный черный цвет (30% непрозрачности) */
     /*background-color: rgba(255, 0, 0, 0.3);*/
 }
 
@@ -162,23 +159,6 @@ nav a:hover {
     background-color: rgb(84, 106, 71)
 }
 
-/*section {
-    padding: 50px;
-}*/
-
-/*#about {}
-
-/*#workshops {}
-
-#reviews {
-    background-color: #d0d0d0;
-}
-
-/*#tariffs {}
-
-/*#signup {}
-
-/*#contact {}
 
 /* Секция "мастер-класс*/
 
@@ -243,9 +223,7 @@ nav a:hover {
 .workshops-info-buttom {
     font-size: 20px;
     font-weight: 600;
-
     padding: 10px 20px;
-    /*border: 1px solid #000000;*/
     border-radius: 7px;
     color: #000000;
     background-color: rgb(181, 200, 170);
@@ -255,33 +233,51 @@ nav a:hover {
     background-color: rgb(201, 224, 194)
 }
 
-.workshops-info>img { /*фотографии студии*/
-    height: 30%; /* Высота логотипа (можно настроить) */
+.workshops-info>img {
+    /*фотографии студии*/
+    height: 30%;
+    /* Высота логотипа (можно настроить) */
 }
 
+
 /* Секция "О нас*/
+
 .column-text {
-    display: flex; /* Используем Flexbox */
-    flex-direction: column; /* Устанавливаем направление столбцом */
-    align-items: flex-start; /* Выравнивание по левому краю */
-    gap: 10px; /* Отступы между элементами */
+    display: flex;
+    /* Используем Flexbox */
+    flex-direction: column;
+    /* Устанавливаем направление столбцом */
+    align-items: flex-start;
+    /* Выравнивание по левому краю */
+    gap: 10px;
+    /* Отступы между элементами */
 }
+
 .block-column-text {
-    display: block; /* Блочное отображение (по умолчанию) */
+    display: block;
     margin: 10px;
+    margin-bottom: 40px;
+    min-width: 380px;
 }
 
 .text-item {
-    display: flex; /* Используем flexbox для выравнивания изображения и текста */
-    align-items: center; /* Центрируем элементы по вертикали */
-    margin-bottom: 10px; /* Отступ между текстовыми элементами */
+    display: flex;
+    /* Используем flexbox для выравнивания изображения и текста */
+    align-items: center;
+    /* Центрируем элементы по вертикали */
+    margin-bottom: 10px;
+    /* Отступ между текстовыми элементами */
 }
 
 .icon {
-    width: 50px; /* Ширина изображения */
-    height: 50px; /* Высота изображения */
-    opacity: 0.5; /* Полу-прозрачность */
-    margin-right: 10px; /* Отступ справа от изображения */
+    width: 50px;
+    /* Ширина изображения */
+    height: 50px;
+    /* Высота изображения */
+    opacity: 0.5;
+    /* Полу-прозрачность */
+    margin-right: 10px;
+    /* Отступ справа от изображения */
 }
 
 #about {
@@ -330,21 +326,10 @@ nav a:hover {
     font-weight: bold;
 }
 
-/*#about p:first-of-type::before {
-    content: '';
-}*/
-
-
-
-
-
-/* Секция "Отзывы учеников" */
-
 
 /* Секция "Наши Тарифы" */
 
 #tariffs {
-    /*padding: 50px 20px;*/
     text-align: center;
 }
 
@@ -444,7 +429,7 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-.signup-form {
+.signupForm {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
@@ -500,12 +485,12 @@ nav a:hover {
 
 /* Секция "Контакты" */
 
-#contacts {
+#contact {
     padding: 50px 20px;
     text-align: center;
 }
 
-#contacts h2 {
+#contact h2 {
     font-size: 30px;
     color: #333;
     display: inline-block;
@@ -514,7 +499,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-#contacts p {
+#contact p {
     font-size: 20px;
     color: #555;
     margin-bottom: 30px;
@@ -621,7 +606,32 @@ nav a:hover {
 }
 
 .contact-form .contact-button:hover {
-    background-color:#c9e0c2;
+    background-color: #c9e0c2;
+}
+
+
+/* Стили для модального окна */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s;
 }
 
 @media(max-width: 1024px) {
@@ -639,7 +649,6 @@ nav a:hover {
         width: 50%;
         margin: 20px;
     }
-
     #signup {
         flex-direction: column;
         align-items: center;
