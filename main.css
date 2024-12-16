@@ -163,7 +163,6 @@ nav a:hover {
 /* Секция "мастер-класс*/
 
 #workshops {
-    text-align: center;
     /*padding: 40px 20px;*/
     /*background-color: #e2e2e2;*/
 }
@@ -213,6 +212,13 @@ nav a:hover {
     background-color: rgb(246, 246, 240);
 }
 
+.workshops-info>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .workshops-info-text {
     text-align: start;
     font-weight: 700;
@@ -221,6 +227,8 @@ nav a:hover {
 }
 
 .workshops-info-buttom {
+    text-align: center;
+    width: 50%;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 20px;
@@ -257,16 +265,19 @@ nav a:hover {
     display: block;
     margin: 10px;
     margin-bottom: 40px;
-    min-width: 380px;
 }
 
 .text-item {
     display: flex;
-    /* Используем flexbox для выравнивания изображения и текста */
-    align-items: center;
-    /* Центрируем элементы по вертикали */
+    align-items: start;
     margin-bottom: 10px;
-    /* Отступ между текстовыми элементами */
+    width: 100%;
+}
+
+.text-item>p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 
 .icon {
@@ -278,52 +289,6 @@ nav a:hover {
     /* Полу-прозрачность */
     margin-right: 10px;
     /* Отступ справа от изображения */
-}
-
-#about {
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    background-color: #f4f4f4;*/
-    margin: 10px;
-}
-
-#about h1 {
-    font-size: 30px;
-    color: #333;
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    background: #cfe8c5;
-}
-
-#about p {
-    font-size: 1.2em;
-    line-height: 1.8;
-    margin: 10px 0;
-    color: #333333;
-}
-
-#about p:first-of-type {
-    font-weight: bold;
-    color: #555555;
-}
-
-#about p strong {
-    color: #cfe8c5;
-    font-weight: bold;
-}
-
-#about p:last-of-type {
-    margin-top: 20px;
-    font-size: 1.3em;
-    color: #546a47;
-}
-
-#about p::before {
-    content: '✔ ';
-    color: #546a47;
-    font-weight: bold;
 }
 
 
