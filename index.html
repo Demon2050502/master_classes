@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой сайт</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="main.css">
 
 </head>
 
 <body>
+
     <header>
+        <img src="jpg/emblem.png" alt="Логотип" class="menu-logo">
         <nav>
-            <a href="#about">О нас</a>
+
             <a href="#workshops">Мастер классы</a>
             <a href="#tariffs">Тарифы</a>
             <a href="#signup">Запись на мастер класс</a>
@@ -20,27 +22,26 @@
         </nav>
     </header>
 
-
     <main>
         <div class="slider">
             <div class="slider-container">
                 <div class="slides">
-                    <div class="slide">
+                    <div class="slide" style="background-image: url('jpg/slide_1.jpg');">
                         <div class="discount-banner">
-                            <h2>Именнинику в день рождения 100% скидка!</h2>
+                            <h2>Розыгрыш бесплатных мастер-классов в нашем телеграмм-канале!</h2>
                             <a href="#tariffs" class="discount-button">Посмотреть тарифы</a>
                         </div>
                     </div>
-                    <div class="slide">
+                    <div class="slide" style="background-image: url('jpg/slide_2.jpg');">
                         <div class="discount-banner">
-                            <h2>Скидка 50% на первый месяц подписки!</h2>
+                            <h2>Именнинику в день рождения 50% скидка!</h2>
                             <a href="#offers" class="discount-button">Узнать больше</a>
                         </div>
                     </div>
-                    <div class="slide">
+                    <div class="slide" style="background-image: url('jpg/slide_3.jpg');">
                         <div class="discount-banner">
-                            <h2>Специальное предложение для новых пользователей!</h2>
-                            <a href="#special" class="discount-button">Посмотреть условия</a>
+                            <h2>Пригласи друга на мастер-класс, и получи 30% скидку!</h2>
+                            <a href="#special" class="discount-button">Узнать больше</a>
                         </div>
                     </div>
                 </div>
@@ -57,51 +58,57 @@
             </div>
         </div>
 
-
-        <section id="about">
-            <h1>О нас</h1>
-            <p>Мастер-классы по вышиванию это:</p>
-            <p>Уютная атмосфера: Наша студия расположена в шаговой доступности от метро Коптево, где вы сможете расслабиться и сосредоточиться на творчестве.</p>
-            <p>Индивидуальный подход: Мы предлагаем занятия для всех уровней — от новичков до опытных вышивальщиц. Каждый найдет что-то для себя!</p>
-            <p>Новые знакомства: Вы сможете встретить единомышленников и поделиться опытом с другими участниками.</p>
-            <p>Готовая картина всего за 2 часа!</p>
-            <p>И самое главное:</p>
-            <p>Все материалы включены: Вам не нужно беспокоиться о покупке материалов — мы предоставим все необходимое для вашего творчества.</p>
-        </section>
-
         <section id="workshops">
-            <h2>Мастер-класс</h2>
+            <h2>Если ты на мастер-классах любишь:</h2>
             <div class="workshops-icon">
                 <div class="workshops-item">
-                    <img src="img/master_1.png" alt="Комфорт" />
+                    <img src="jpg/1.png" alt="Комфорт" />
                     <p>комфорт</p>
                 </div>
                 <div class="workshops-item">
-                    <img src="img/master_2.png" alt="Уют" />
+                    <img src="jpg/2.png" alt="Уют" />
                     <p>уют</p>
                 </div>
                 <div class="workshops-item">
-                    <img src="img/master_3.png" alt="Музыка" />
+                    <img src="jpg/3.png" alt="Музыка" />
                     <p>музыку</p>
                 </div>
                 <div class="workshops-item">
-                    <img src="img/master_4.png" alt="Приятные беседы" />
+                    <img src="jpg/4.png" alt="Приятные беседы" />
                     <p>приятные беседы</p>
                 </div>
                 <div class="workshops-item">
-                    <img src="img/master_5.png" alt="Новое" />
+                    <img src="jpg/5.png" alt="Новое" />
                     <p>делать что-то новое</p>
                 </div>
             </div>
 
             <div class="workshops-info">
                 <div class="">
-                    <h3 class="workshops-info-text">Тебе точно понравиться на наших мастер-классах!</h3>
+                    <h3 class="workshops-info-text">Тебе точно понравиться в нашей студии!</h3>
 
-                    <a class="workshops-info-buttom" href="#signup">Запишись на мастер класс</a>
+                    <div class="block-column-text">
+                        <div class="text-item">
+                            <img src="jpg/1.png" class="icon"> Студия находится недалеко от станции МЦК "Коптево"
+                        </div>
+                        <div class="text-item">
+                            <img src="jpg/2.png" class="icon"> Занятия для всех уровней — от новичков до опытных вышивальщиц. Каждый найдет что-то своё!
+                        </div>
+                        <div class="text-item">
+                            <img src="jpg/3.png" class="icon"> Учтем музыкальные предпочтения каждого и включим в плейлист фоновой музыки.
+                        </div>
+                        <div class="text-item">
+                            <img src="jpg/4.png" class="icon"> Каждый мастер-класс это - обсуждение интересных тем. Книги, фильмы, аниме-сериалы и многое другое!
+                        </div>
+                        <div class="text-item">
+                            <img src="jpg/5.png" class="icon"> самое главное: не нужно беспокоиться о покупке материалов; мы предоставим всё необходимое!
+                        </div>
+                    </div>
                 </div>
 
-                <img src="img/master_main.png">
+                <a class="workshops-info-buttom" href="#signup">Запиcаться на мастер-класс</a>
+
+                <img src="jpg/Elka.png" class="workshops-jpg">
             </div>
         </section>
 
@@ -116,7 +123,7 @@
                         <li>Все материалы включены</li>
                         <li>Готовая картина за 2 часа</li>
                     </ul>
-                    <a href="#contact" class="tariff-button">Выбрать</a>
+                    <a href="#contact" class="tariff-button">Преобрести</a>
                 </div>
 
                 <div class="tariff-card">
@@ -128,19 +135,19 @@
                         <li>Сертификат участника</li>
                         <li>Скидка 10% на следующие занятия</li>
                     </ul>
-                    <a href="#contact" class="tariff-button">Выбрать</a>
+                    <a href="#contact" class="tariff-button">Преобрести</a>
                 </div>
 
                 <div class="tariff-card">
                     <h3>Премиум</h3>
-                    <p class="price">7 500 ₽</p>
+                    <p class="price">6000 ₽</p>
                     <ul>
                         <li>6 мастер-классов</li>
                         <li>Все материалы включены</li>
                         <li>Индивидуальная консультация</li>
                         <li>Скидка 20% на следующие занятия</li>
                     </ul>
-                    <a href="#contact" class="tariff-button">Выбрать</a>
+                    <a href="#contact" class="tariff-button">Приобрести</a>
                 </div>
             </div>
         </section>
@@ -149,7 +156,7 @@
         <section id="signup">
             <h2>Запись на мастер-класс</h2>
             <p>Заполните форму ниже, чтобы записаться на мастер-класс. Мы свяжемся с вами для подтверждения записи.</p>
-            <form class="signupForm">
+            <form class="signup-form">
                 <div class="form-group">
                     <label for="name">Ваше имя:</label>
                     <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
@@ -174,37 +181,32 @@
             </form>
         </section>
 
-        <!-- Всплывающее окно -->
-        <div id="modal" class="modal">
-            <div class="modal-content">
-                <p>Спасибо за регистрацию! Мы скоро с вами свяжемся.</p>
-            </div>
-        </div>
-
         <section id="contacts">
             <h2>Контакты</h2>
             <p>Мы будем рады ответить на ваши вопросы. Свяжитесь с нами любым удобным способом:</p>
-
             <div class="contact-details">
                 <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
                     <h3>Наш адрес</h3>
-                    <p>Москва, ул. Примерная, д. 123</p>
+                    <p>Москва, ул. Коптевская 30А</p>
                 </div>
                 <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
                     <h3>Телефон</h3>
-                    <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+                    <p><a href="tel:+74951234567">+79099023960</a></p>
                 </div>
                 <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
                     <h3>Email</h3>
-                    <p><a href="mailto:info@example.com">str_rita05@mail.com</a></p>
+                    <p><a href="mailto:info@example.com">str_rita05@mail.ru</a></p>
                 </div>
                 <div class="contact-item">
+                    <i class="fas fa-clock"></i>
                     <h3>Часы работы</h3>
                     <p>Пн-Пт: 10:00 - 19:00</p>
                     <p>Сб-Вс: 11:00 - 17:00</p>
                 </div>
             </div>
-
             <div class="contact-form">
                 <h3>Напишите нам</h3>
                 <form id="contactForm">
@@ -225,7 +227,8 @@
             </div>
         </section>
 
-        <script src="js/main.js"></script>
+
+        <script src="main.js"></script>
     </main>
 </body>
 
